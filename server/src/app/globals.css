@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.text-l-t-r-gradient {
+  @apply bg-gradient-to-r from-primary-navy to-primary-teal bg-clip-text text-transparent;
+}
+
+.text-t-t-b-gradient {
+  @apply bg-gradient-to-b from-primary-navy to-primary-teal bg-clip-text text-transparent;
+}
+
+@keyframes bounce-up-down {
+  0%,
+  100% {
+    top: -12px;
+  }
+  50% {
+    top: 12px;
+  }
+}
+.heading-div {
+  animation: bounce-up-down 3s infinite ease-in;
+}
+
+@keyframes bounce-down-up {
+  0%,
+  100% {
+    top: 15px;
+  }
+  50% {
+    top: -15px;
+  }
+}
+.heading-text {
+  animation: bounce-down-up 3s infinite ease-out;
+}
