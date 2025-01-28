@@ -4,7 +4,7 @@ import {
   userAdminGuard,
   userSalesGuard,
 } from "@/middleware/user";
-import Product from "@/models/product";
+import Product from "@/models/gig";
 import resError from "@/utils/resError";
 import { NextResponse } from "next/server";
 

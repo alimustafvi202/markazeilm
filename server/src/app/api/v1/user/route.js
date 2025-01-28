@@ -6,7 +6,7 @@ import {
   userHRGuard,
   userSuperAdminGuard,
 } from "@/middleware/user";
-import JobInfo from "@/models/jobInfo";
+import JobInfo from "@/models/professionalinfo";
 import PersonalInfo from "@/models/personalinfo";
 import User from "@/models/user";
 import resError from "@/utils/resError";

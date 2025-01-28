@@ -1,6 +1,6 @@
 import connectDB from "@/lib/db";
 import { userSalesGuard } from "@/middleware/user";
-import SaleProduct from "@/models/sale_product";
+import SaleProduct from "@/models/sale_gig";
 import resError from "@/utils/resError";
 import { NextResponse } from "next/server";
 

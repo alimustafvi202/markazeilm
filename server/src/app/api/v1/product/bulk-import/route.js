@@ -1,7 +1,7 @@
 import connectDB from "@/lib/db";
 import { subscriptionCheckGuard, userSalesGuard } from "@/middleware/user";
 import Asset from "@/models/asset";
-import Product from "@/models/product";
+import Product from "@/models/gig";
 import resError from "@/utils/resError";
 import { NextResponse } from "next/server";
 

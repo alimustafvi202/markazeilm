@@ -1,6 +1,6 @@
 import connectDB from "@/lib/db";
 import { userAuthGuard } from "@/middleware/user";
-import JobInfo from "@/models/jobInfo";
+import JobInfo from "@/models/professionalinfo";
 import PersonalInfo from "@/models/personalinfo";
 import resError from "@/utils/resError";
 import { NextResponse } from "next/server";

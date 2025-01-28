@@ -1,6 +1,6 @@
 import connectDB from "@/lib/db";
 import { subscriptionCheckGuard, userSalesGuard } from "@/middleware/user";
-import JobInfo from "@/models/jobInfo";
+import JobInfo from "@/models/professionalinfo";
 import Payroll from "@/models/payroll";
 import PersonalInfo from "@/models/personalinfo";
 import User from "@/models/user";

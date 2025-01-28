@@ -3,8 +3,8 @@ import { subscriptionCheckGuard, userSalesGuard } from "@/middleware/user";
 import Client from "@/models/client";
 import Invoice from "@/models/invoice";
 import PersonalInfo from "@/models/personalinfo";
-import Product from "@/models/product";
-import SaleProduct from "@/models/sale_product";
+import Product from "@/models/gig";
+import SaleProduct from "@/models/sale_gig";
 import resError from "@/utils/resError";
 import { NextResponse } from "next/server";
 
