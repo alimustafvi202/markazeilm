@@ -8,6 +8,7 @@ import Choose from "./pages/Major/Sigup_Login";
 import TeacherSignup from "./pages/Teacher/TeacherSignup";
 import { useState } from "react";
 import Profile from './pages/Student/Profile';
+import Dashboard from "./pages/Student/Main/Dashboard";
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/choose" element={<Choose />} />
           <Route path="/teachersignup" element={<TeacherSignup />} />
           <Route path="/profile" element={<Profile/>} />
+          <Route path="/studentdashboard" element={<Dashboard/>} />
         </Routes>
       </div>
     </Router>
